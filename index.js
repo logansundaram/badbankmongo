@@ -52,7 +52,7 @@ app.get('/find/allData', (req, res) => {
     })
 });
 
-const port = 3000;
+const port = 8080;
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
